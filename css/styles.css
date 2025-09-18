@@ -116,8 +116,7 @@ address {
     text-transform: capitalize;
 }
 
-.section-three li,
-.section-three .img {
+.section-three .li-section-three {
     background-color: #FFFFFF;
 }
 
