@@ -20,7 +20,6 @@ ul {
 }
 
 .webstudio {
-    color: #2E2F42;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.16667;
@@ -34,6 +33,10 @@ ul {
 
 .accent {
     color: #2E2F42;
+}
+
+.accent-two {
+    color: #F4F4FD;
 }
 
 .link {
@@ -87,7 +90,8 @@ address {
 
 .button:hover,
 .button:focus {
-    color: #404BBF;
+    color: #FFFFFF;
+    background-color: #404BBF;
 }
 
 .h-three {
