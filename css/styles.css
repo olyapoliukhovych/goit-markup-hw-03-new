@@ -59,12 +59,14 @@ ul {
 .contacts {
     text-decoration: none;
     color: #434455;
+    letter-spacing: 0.02em;
 }
 
 .contacts:hover,
 .contacts:focus {
     text-decoration: none;
     color: #404BBF;
+    letter-spacing: 0.02em;
 }
 
 address {
