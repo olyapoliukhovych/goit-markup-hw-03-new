@@ -9,7 +9,12 @@ body {
     font-style: normal;
 }
 
-body ul {
+a {
+    text-decoration: none;
+    font-style: normal;
+}
+
+ul {
     list-style-type: none;
 }
 
@@ -32,21 +37,22 @@ body ul {
     line-height: 1.5;
     letter-spacing: 2%;
     color: #2E2F42;
-    text-decoration: none;
 }
 
 .link:hover {
     color: #404BBF;
 }
 
-address {
-    color: #434455;
+address a {
     text-decoration: none;
     font-style: normal;
+    color: #434455;
 }
 
-address:hover,
-address:focus {
+address a:hover,
+address a:focus {
+    text-decoration: none;
+    font-style: normal;
     color: #404BBF;
 }
 
