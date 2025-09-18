@@ -5,6 +5,12 @@ body {
     line-height: 1.5;
     font-weight: normal;
     letter-spacing: 2%;
+    text-decoration: none;
+    font-style: normal;
+}
+
+ul {
+    list-style-type: none;
 }
 
 .webstudio {
@@ -31,6 +37,10 @@ body {
     color: #404BBF;
 }
 
+address {
+    color: #434455;
+}
+
 address:hover,
 address:focus {
     color: #404BBF;
@@ -48,6 +58,7 @@ h1 {
     font-weight: medium;
     letter-spacing: 4%;
     color: #FFFFFF;
+    align-items: center;
 }
 
 h3 {
@@ -60,6 +71,7 @@ h2 {
     font-weight: bold;
     font-size: 36px;
     color: #2E2F42;
+    text-align: center;
 }
 
 .button {
