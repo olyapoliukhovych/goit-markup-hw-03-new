@@ -1,0 +1,67 @@
+body {
+    font-family: "Roboto", "Helvetica Neue", "Verdana", sans-serif;
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: normal;
+    letter-spacing: 2%;
+}
+
+.webstudio {
+    color: #2E2F42;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    text-transform: uppercase;
+}
+
+.accent {
+    color: #4D5AE5;
+}
+
+.link {
+    font-weight: medium;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2%;
+    color: #2E2F42;
+}
+
+.link:hover {
+    color: #404BBF;
+}
+
+address:hover,
+address:focus {
+    color: #404BBF;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 1.07143;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.button {
+    font-weight: medium;
+    letter-spacing: 4%;
+    color: #FFFFFF;
+}
+
+h3 {
+    font-weight: medium;
+    font-size: 20px;
+    color: #2E2F42;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #2E2F42;
+}
+
+.button {
+    cursor: pointer;
+}
