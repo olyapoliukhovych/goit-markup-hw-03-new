@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto", "Helvetica Neue", "Verdana", sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
@@ -7,6 +7,7 @@ body {
     letter-spacing: 2%;
     text-decoration: none;
     font-style: normal;
+    background-color: #FFFFFF;
 }
 
 a {
@@ -23,58 +24,97 @@ ul {
     font-weight: 700;
     font-size: 18px;
     line-height: 1.16667;
+    font-family: "Raleway", sans-serif;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
+    color: #4d5ae5;
 }
 
 .accent {
-    color: #4D5AE5;
+    color: #2E2F42;
 }
 
 .link {
-    font-weight: medium;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 2%;
     color: #2E2F42;
+    font-weight: 500;
+    letter-spacing: 0.02em;
 }
 
-.link:hover {
+.link:hover,
+.link:focus {
     color: #404BBF;
 }
 
-address a {
+.contacts {
     text-decoration: none;
-    font-style: normal;
     color: #434455;
 }
 
-address a:hover,
-address a:focus {
+.contacts:hover,
+.contacts:focus {
     text-decoration: none;
-    font-style: normal;
     color: #404BBF;
 }
 
-h1 {
+address {
+    font-style: normal
+}
+
+.h-one {
     font-weight: bold;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
+    background-color: #2e2f42;
 }
 
 .button {
-    font-weight: medium;
-    letter-spacing: 4%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    line-height: 1.5;
     color: #FFFFFF;
     text-align: center;
+    background-color: #4d5ae5;
 }
 
-h3 {
-    font-weight: medium;
+.button:hover,
+.button:focus {
+    color: #404BBF;
+}
+
+.h-three {
     font-size: 20px;
     color: #2E2F42;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.h {
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.section-three li {
+    background-color: #FFFFFF;
+}
+
+.text {
+    letter-spacing: 0.02em;
+    font-size: 16px;
+}
+
+.section-three {
+    background-color: #F4F4FD;
 }
 
 h2 {
@@ -86,4 +126,13 @@ h2 {
 
 .button {
     cursor: pointer;
+}
+
+.footer {
+    background-color: #2e2f42;
+}
+
+.footer-text {
+    color: #F4F4FD;
+    letter-spacing: 0.02em;;
 }
