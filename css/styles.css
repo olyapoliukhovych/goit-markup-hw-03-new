@@ -403,27 +403,19 @@ img {
 /* =========== /portfolio section =========== */
 
 /* ============= footer section ============= */
-
-/* .footer {
-    padding: 100px 0; 
+/* 
+footer>.container {
     padding-top: 100px;
-    padding-bottom: 100px; 
-    padding: 100px 0 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
     padding-left: 156px;
     background-color: var(--navy-blue);
-} */
+}
 
-/* .logo-footer {
+footer .logo-footer {
     display: inline-block;
-} */
-
-/* .footer .logo-footer {
-    display: inline-block;
-} */
-/* 
-.footer-wrapper {
-    
-} */
+}
 
 .logo-footer {
     display: inline-block;
@@ -445,7 +437,7 @@ img {
     font-family: var(--font-family);
     color: var(--cloud);
     width: 264px;
-}
+} */
 
 /* ============= /footer section ============= */
 
@@ -457,16 +449,3 @@ img {
     color: var(--navy-blue);
     text-align: center;
 } */
-
-footer > .container {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    display: flex;
-    flex-direction: column;
-    padding-left: 156px;
-    background-color: var(--navy-blue);
-}
-
-footer .logo-footer {
-    display: inline-block;
-}
