@@ -426,12 +426,12 @@ img {
     
 } */
 
-footer {
+.footer {
     padding-left: 156px;
     background-color: var(--navy-blue);
 }
 
-footer .container {
+.footer .container {
     padding-top: 100px;
     padding-bottom: 100px;
     display: flex;
