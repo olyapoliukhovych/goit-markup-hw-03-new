@@ -283,12 +283,12 @@ img {
     padding: 120px 0;
 }
 
-/* .team-wrapper {
+.team-wrapper {
     max-width: 1128px;
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
     margin: 0 auto;
-}  */
+} 
 
 .list-team {
     display: flex;
@@ -298,15 +298,18 @@ img {
 }
 
 .li-team {
+    /* max-width: 264px; */
     width: calc((100% - 3 * 24px) / 4);
     background-color: var(--bg-color);
     border-radius: 0px 0px 4px 4px;
-    padding: 0px 0px 32px;
+    /* padding: 0px 0px 32px; */
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .dream-team-wrapper {
-    padding: 32px 0;
+    /* padding: 32px 0; */
+    padding-top: 32px;
+    padding-bottom: 32px;
     text-align: center;
 }
 
@@ -324,8 +327,8 @@ img {
     color: var(--navy-blue);
     font-weight: 500;
     line-height: 1.2;
-    margin-top: 32px;
-    margin-bottom: 8px;
+    /* margin-top: 32px;
+    margin-bottom: 8px; */
     text-align: center;
 }
 
@@ -366,15 +369,15 @@ img {
     background: var(--white);
     /* padding: 32px 16px; */
     /* border: 1px solid var(--cornflower);
-    border-top: none; */ */
+    border-top: none; */ 
 } 
 
 .section-four-li {
     display: flex;
     flex-direction: column;
     justify-content: center; 
-    align-items: center;
-    gap: 24px;
+    /* align-items: center; */
+    /* gap: 24px; */
     padding: 32px 16px;
     border: 1px solid var(--cornflower);
     border-top: none;
@@ -385,15 +388,15 @@ img {
     font-size: 20px;
     line-height: 1.2;
     color: var(--navy-blue);
-    margin-top: 32px;
     margin-bottom: 8px;
-    margin-left: 16px;
-    /* margin: 0 auto; */
+    /* margin-top: 32px;
+    margin: 0 auto;
+    margin-left: 16px; */
 }
 
 .text-portfolio {
-    margin-bottom: 32px;
-    margin-left: 16px;
+    /* margin-bottom: 32px;
+    margin-left: 16px; */
     /* color: var(--slate); */
 }
 
@@ -402,11 +405,15 @@ img {
 /* ============= footer section ============= */
 
 .footer {
-    /* padding: 100px 0; */
+    padding: 100px 0;
     padding-top: 100px;
     padding-bottom: 100px;
     padding-left: 156px;
     background-color: var(--navy-blue);
+}
+
+footer a {
+    display: inline-block;
 }
 
 .footer-wrapper {
